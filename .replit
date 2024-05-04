@@ -1,4 +1,4 @@
-run = "gcc tdas/*.c examples/example2_menu.c -Wno-unused-result -o example; ./tarea2"
+run = "gcc tdas/*.c tarea2.c -Wno-unused-result -o tarea2; ./tarea2"
 entrypoint = "main.c"
 hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
 

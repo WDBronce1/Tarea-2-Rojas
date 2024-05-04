@@ -2,6 +2,7 @@
 #define LIST_H
 
 typedef struct List List;
+typedef struct Node Node;
 
 // Esta función crea una lista vacía y devuelve un puntero a la lista.
 List *list_create();
